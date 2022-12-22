@@ -13,6 +13,8 @@
 		1C0E1F632954ACC300F3C3DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0E1F622954ACC300F3C3DB /* ContentView.swift */; };
 		1C0E1F652954ACC400F3C3DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C0E1F642954ACC400F3C3DB /* Assets.xcassets */; };
 		1C0E1F692954ACC400F3C3DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C0E1F682954ACC400F3C3DB /* Preview Assets.xcassets */; };
+		1C0E1F722954AD2700F3C3DB /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0E1F712954AD2700F3C3DB /* Home.swift */; };
+		1C0E1F742954AE3800F3C3DB /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0E1F732954AE3800F3C3DB /* Welcome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1C0E1F642954ACC400F3C3DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C0E1F662954ACC400F3C3DB /* Koan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Koan.entitlements; sourceTree = "<group>"; };
 		1C0E1F682954ACC400F3C3DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1C0E1F712954AD2700F3C3DB /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		1C0E1F732954AE3800F3C3DB /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		1C0E1F5A2954ACC300F3C3DB /* Koan */ = {
 			isa = PBXGroup;
 			children = (
+				1C0E1F6F2954ACE200F3C3DB /* Views */,
+				1C0E1F702954ACEE00F3C3DB /* Pages */,
 				1C0E1F5B2954ACC300F3C3DB /* KoanApp.swift */,
 				1C0E1F5D2954ACC300F3C3DB /* Persistence.swift */,
 				1C0E1F622954ACC300F3C3DB /* ContentView.swift */,
@@ -73,6 +79,30 @@
 				1C0E1F682954ACC400F3C3DB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1C0E1F6F2954ACE200F3C3DB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1C0E1F752954AF1B00F3C3DB /* Welcome */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1C0E1F702954ACEE00F3C3DB /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				1C0E1F712954AD2700F3C3DB /* Home.swift */,
+				1C0E1F732954AE3800F3C3DB /* Welcome.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		1C0E1F752954AF1B00F3C3DB /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Welcome;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,7 +177,9 @@
 			files = (
 				1C0E1F5C2954ACC300F3C3DB /* KoanApp.swift in Sources */,
 				1C0E1F612954ACC300F3C3DB /* Koan.xcdatamodeld in Sources */,
+				1C0E1F722954AD2700F3C3DB /* Home.swift in Sources */,
 				1C0E1F632954ACC300F3C3DB /* ContentView.swift in Sources */,
+				1C0E1F742954AE3800F3C3DB /* Welcome.swift in Sources */,
 				1C0E1F5E2954ACC300F3C3DB /* Persistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
