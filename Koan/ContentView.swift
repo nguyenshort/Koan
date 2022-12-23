@@ -26,7 +26,7 @@ struct ContentView: View {
                 Home()
                     .tag(MainTabEnum.Communication)
                 
-                Color.green
+                Vocabulary()
                     .tag(MainTabEnum.Vocabulary)
                 
                 Color.pink

@@ -28,6 +28,10 @@
 		1C0E1F9129554A2400F3C3DB /* ShadowModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0E1F9029554A2400F3C3DB /* ShadowModifiers.swift */; };
 		1C0E1F9329554C5500F3C3DB /* NumberExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0E1F9229554C5500F3C3DB /* NumberExtensions.swift */; };
 		1C0E1F9529554CDF00F3C3DB /* BorderModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0E1F9429554CDF00F3C3DB /* BorderModifiers.swift */; };
+		1C0E1F99295558C100F3C3DB /* Vocabulary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0E1F98295558C100F3C3DB /* Vocabulary.swift */; };
+		1C0E1F9C29555FFF00F3C3DB /* VocabularySelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0E1F9B29555FFF00F3C3DB /* VocabularySelector.swift */; };
+		1C0E1F9E295562BB00F3C3DB /* VocabularyLearned.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0E1F9D295562BB00F3C3DB /* VocabularyLearned.swift */; };
+		1C0E1FA029556C1A00F3C3DB /* VocabularySummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0E1F9F29556C1A00F3C3DB /* VocabularySummary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +58,10 @@
 		1C0E1F9029554A2400F3C3DB /* ShadowModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowModifiers.swift; sourceTree = "<group>"; };
 		1C0E1F9229554C5500F3C3DB /* NumberExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberExtensions.swift; sourceTree = "<group>"; };
 		1C0E1F9429554CDF00F3C3DB /* BorderModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderModifiers.swift; sourceTree = "<group>"; };
+		1C0E1F98295558C100F3C3DB /* Vocabulary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vocabulary.swift; sourceTree = "<group>"; };
+		1C0E1F9B29555FFF00F3C3DB /* VocabularySelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularySelector.swift; sourceTree = "<group>"; };
+		1C0E1F9D295562BB00F3C3DB /* VocabularyLearned.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyLearned.swift; sourceTree = "<group>"; };
+		1C0E1F9F29556C1A00F3C3DB /* VocabularySummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularySummary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +123,7 @@
 		1C0E1F6F2954ACE200F3C3DB /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1C0E1F9A29555FBA00F3C3DB /* Vocabulary */,
 				1C0E1F762954C0FE00F3C3DB /* Communication */,
 				1C0E1F752954AF1B00F3C3DB /* Welcome */,
 			);
@@ -126,6 +135,7 @@
 			children = (
 				1C0E1F712954AD2700F3C3DB /* Home.swift */,
 				1C0E1F732954AE3800F3C3DB /* Welcome.swift */,
+				1C0E1F98295558C100F3C3DB /* Vocabulary.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -167,6 +177,16 @@
 				1C0E1F9429554CDF00F3C3DB /* BorderModifiers.swift */,
 			);
 			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		1C0E1F9A29555FBA00F3C3DB /* Vocabulary */ = {
+			isa = PBXGroup;
+			children = (
+				1C0E1F9B29555FFF00F3C3DB /* VocabularySelector.swift */,
+				1C0E1F9D295562BB00F3C3DB /* VocabularyLearned.swift */,
+				1C0E1F9F29556C1A00F3C3DB /* VocabularySummary.swift */,
+			);
+			path = Vocabulary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,16 +270,20 @@
 				1C0E1F5C2954ACC300F3C3DB /* KoanApp.swift in Sources */,
 				1C0E1F612954ACC300F3C3DB /* Koan.xcdatamodeld in Sources */,
 				1C0E1F9529554CDF00F3C3DB /* BorderModifiers.swift in Sources */,
+				1C0E1F9C29555FFF00F3C3DB /* VocabularySelector.swift in Sources */,
 				1C0E1F722954AD2700F3C3DB /* Home.swift in Sources */,
 				1C0E1F872955289700F3C3DB /* CommuWelcome.swift in Sources */,
 				1C0E1F9129554A2400F3C3DB /* ShadowModifiers.swift in Sources */,
 				1C0E1F9329554C5500F3C3DB /* NumberExtensions.swift in Sources */,
+				1C0E1F9E295562BB00F3C3DB /* VocabularyLearned.swift in Sources */,
 				1C0E1F632954ACC300F3C3DB /* ContentView.swift in Sources */,
 				1C0E1F8929552AD600F3C3DB /* CommuTags.swift in Sources */,
 				1C0E1F7F2955211B00F3C3DB /* CommuBanner.swift in Sources */,
 				1C0E1F7A2954C9FA00F3C3DB /* RoomItem.swift in Sources */,
 				1C0E1F812955265200F3C3DB /* CommuSearchBar.swift in Sources */,
 				1C0E1F742954AE3800F3C3DB /* Welcome.swift in Sources */,
+				1C0E1F99295558C100F3C3DB /* Vocabulary.swift in Sources */,
+				1C0E1FA029556C1A00F3C3DB /* VocabularySummary.swift in Sources */,
 				1C0E1F8C2955484600F3C3DB /* StringExtensions.swift in Sources */,
 				1C0E1F5E2954ACC300F3C3DB /* Persistence.swift in Sources */,
 				1C0E1F8E295548BA00F3C3DB /* ColorExtensions.swift in Sources */,

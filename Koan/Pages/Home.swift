@@ -13,47 +13,47 @@ struct Home: View {
         
         NavigationStack {
             
-            ScrollView(.vertical, showsIndicators: false) {
+            VStack(spacing: 0) {
                 
-                VStack(spacing: 0) {
-                    
-//                    CommuTab()
-//
-//
-                    
-                    CommuWelcome()
-                        .padding(.horizontal)
-                    
-                    CommuBanner()
-                        .clipShape(RoundedRectangle(cornerRadius: 15))
-                        .padding(.horizontal)
-                        .padding(.top, 30)
-                    
-                    CommuSearchBar()
-                        .padding(.top, 30)
-                        .padding(.horizontal)
-                    
-                    CommuTags()
-                        .padding(.horizontal)
-                        .padding(.top, 16)
-                    
-                    VStack(spacing: 20) {
-                        
-                        RoomItem()
-
-                        RoomItem()
-
-                        
-                        RoomItem()
-                        
-                    }
+                CommuWelcome()
                     .padding(.horizontal)
-                    .padding(.top, 30)
+                
+                ScrollView(.vertical, showsIndicators: false) {
+                    
+                    VStack(spacing: 0) {
+                        
+                        CommuBanner()
+                            .clipShape(RoundedRectangle(cornerRadius: 15))
+                            .padding(.horizontal)
+                            .padding(.top, 30)
+                        
+                        CommuSearchBar()
+                            .padding(.top, 30)
+                            .padding(.horizontal)
+                        
+                        CommuTags()
+                            .padding(.horizontal)
+                            .padding(.top, 16)
+                        
+                        VStack(spacing: 20) {
+                            
+                            RoomItem()
+
+                            RoomItem()
+
+                            
+                            RoomItem()
+                            
+                        }
+                        .padding(.horizontal)
+                        .padding(.top, 30)
+                    }
                 }
+                // .ignoresSafeArea()
+                .frame(maxWidth: .infinity)
+                .background(Color("BG"))
+                
             }
-            // .ignoresSafeArea()
-            .frame(maxWidth: .infinity)
-            .background(Color("BG"))
             
         }
         
