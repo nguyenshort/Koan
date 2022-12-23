@@ -15,6 +15,16 @@
 		1C0E1F692954ACC400F3C3DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C0E1F682954ACC400F3C3DB /* Preview Assets.xcassets */; };
 		1C0E1F722954AD2700F3C3DB /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0E1F712954AD2700F3C3DB /* Home.swift */; };
 		1C0E1F742954AE3800F3C3DB /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0E1F732954AE3800F3C3DB /* Welcome.swift */; };
+		1C0E1F782954C5F900F3C3DB /* CommuTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0E1F772954C5F900F3C3DB /* CommuTab.swift */; };
+		1C0E1F7A2954C9FA00F3C3DB /* RoomItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0E1F792954C9FA00F3C3DB /* RoomItem.swift */; };
+		1C0E1F7D2954CB6A00F3C3DB /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = 1C0E1F7C2954CB6A00F3C3DB /* SwiftUIX */; };
+		1C0E1F7F2955211B00F3C3DB /* CommuBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0E1F7E2955211B00F3C3DB /* CommuBanner.swift */; };
+		1C0E1F812955265200F3C3DB /* CommuSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0E1F802955265200F3C3DB /* CommuSearchBar.swift */; };
+		1C0E1F842955276B00F3C3DB /* Inter.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C0E1F832955276B00F3C3DB /* Inter.ttf */; };
+		1C0E1F872955289700F3C3DB /* CommuWelcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0E1F862955289700F3C3DB /* CommuWelcome.swift */; };
+		1C0E1F8929552AD600F3C3DB /* CommuTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0E1F8829552AD600F3C3DB /* CommuTags.swift */; };
+		1C0E1F8C2955484600F3C3DB /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0E1F8B2955484600F3C3DB /* StringExtensions.swift */; };
+		1C0E1F8E295548BA00F3C3DB /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0E1F8D295548BA00F3C3DB /* ColorExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +38,16 @@
 		1C0E1F682954ACC400F3C3DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1C0E1F712954AD2700F3C3DB /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		1C0E1F732954AE3800F3C3DB /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
+		1C0E1F772954C5F900F3C3DB /* CommuTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommuTab.swift; sourceTree = "<group>"; };
+		1C0E1F792954C9FA00F3C3DB /* RoomItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomItem.swift; sourceTree = "<group>"; };
+		1C0E1F7E2955211B00F3C3DB /* CommuBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommuBanner.swift; sourceTree = "<group>"; };
+		1C0E1F802955265200F3C3DB /* CommuSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommuSearchBar.swift; sourceTree = "<group>"; };
+		1C0E1F832955276B00F3C3DB /* Inter.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Inter.ttf; sourceTree = "<group>"; };
+		1C0E1F85295527AF00F3C3DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C0E1F862955289700F3C3DB /* CommuWelcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommuWelcome.swift; sourceTree = "<group>"; };
+		1C0E1F8829552AD600F3C3DB /* CommuTags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommuTags.swift; sourceTree = "<group>"; };
+		1C0E1F8B2955484600F3C3DB /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		1C0E1F8D295548BA00F3C3DB /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C0E1F7D2954CB6A00F3C3DB /* SwiftUIX in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +81,9 @@
 		1C0E1F5A2954ACC300F3C3DB /* Koan */ = {
 			isa = PBXGroup;
 			children = (
+				1C0E1F8A2955482100F3C3DB /* Extensions */,
+				1C0E1F85295527AF00F3C3DB /* Info.plist */,
+				1C0E1F832955276B00F3C3DB /* Inter.ttf */,
 				1C0E1F6F2954ACE200F3C3DB /* Views */,
 				1C0E1F702954ACEE00F3C3DB /* Pages */,
 				1C0E1F5B2954ACC300F3C3DB /* KoanApp.swift */,
@@ -84,6 +108,7 @@
 		1C0E1F6F2954ACE200F3C3DB /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1C0E1F762954C0FE00F3C3DB /* Communication */,
 				1C0E1F752954AF1B00F3C3DB /* Welcome */,
 			);
 			path = Views;
@@ -105,6 +130,28 @@
 			path = Welcome;
 			sourceTree = "<group>";
 		};
+		1C0E1F762954C0FE00F3C3DB /* Communication */ = {
+			isa = PBXGroup;
+			children = (
+				1C0E1F772954C5F900F3C3DB /* CommuTab.swift */,
+				1C0E1F792954C9FA00F3C3DB /* RoomItem.swift */,
+				1C0E1F7E2955211B00F3C3DB /* CommuBanner.swift */,
+				1C0E1F802955265200F3C3DB /* CommuSearchBar.swift */,
+				1C0E1F862955289700F3C3DB /* CommuWelcome.swift */,
+				1C0E1F8829552AD600F3C3DB /* CommuTags.swift */,
+			);
+			path = Communication;
+			sourceTree = "<group>";
+		};
+		1C0E1F8A2955482100F3C3DB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1C0E1F8B2955484600F3C3DB /* StringExtensions.swift */,
+				1C0E1F8D295548BA00F3C3DB /* ColorExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -121,6 +168,9 @@
 			dependencies = (
 			);
 			name = Koan;
+			packageProductDependencies = (
+				1C0E1F7C2954CB6A00F3C3DB /* SwiftUIX */,
+			);
 			productName = Koan;
 			productReference = 1C0E1F582954ACC300F3C3DB /* Koan.app */;
 			productType = "com.apple.product-type.application";
@@ -149,6 +199,9 @@
 				Base,
 			);
 			mainGroup = 1C0E1F4F2954ACC300F3C3DB;
+			packageReferences = (
+				1C0E1F7B2954CB6A00F3C3DB /* XCRemoteSwiftPackageReference "SwiftUIX" */,
+			);
 			productRefGroup = 1C0E1F592954ACC300F3C3DB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -163,6 +216,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C0E1F842955276B00F3C3DB /* Inter.ttf in Resources */,
 				1C0E1F692954ACC400F3C3DB /* Preview Assets.xcassets in Resources */,
 				1C0E1F652954ACC400F3C3DB /* Assets.xcassets in Resources */,
 			);
@@ -175,12 +229,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C0E1F782954C5F900F3C3DB /* CommuTab.swift in Sources */,
 				1C0E1F5C2954ACC300F3C3DB /* KoanApp.swift in Sources */,
 				1C0E1F612954ACC300F3C3DB /* Koan.xcdatamodeld in Sources */,
 				1C0E1F722954AD2700F3C3DB /* Home.swift in Sources */,
+				1C0E1F872955289700F3C3DB /* CommuWelcome.swift in Sources */,
 				1C0E1F632954ACC300F3C3DB /* ContentView.swift in Sources */,
+				1C0E1F8929552AD600F3C3DB /* CommuTags.swift in Sources */,
+				1C0E1F7F2955211B00F3C3DB /* CommuBanner.swift in Sources */,
+				1C0E1F7A2954C9FA00F3C3DB /* RoomItem.swift in Sources */,
+				1C0E1F812955265200F3C3DB /* CommuSearchBar.swift in Sources */,
 				1C0E1F742954AE3800F3C3DB /* Welcome.swift in Sources */,
+				1C0E1F8C2955484600F3C3DB /* StringExtensions.swift in Sources */,
 				1C0E1F5E2954ACC300F3C3DB /* Persistence.swift in Sources */,
+				1C0E1F8E295548BA00F3C3DB /* ColorExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +371,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Koan/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -318,7 +381,6 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -347,6 +409,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Koan/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -356,7 +419,6 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -394,6 +456,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1C0E1F7B2954CB6A00F3C3DB /* XCRemoteSwiftPackageReference "SwiftUIX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftUIX/SwiftUIX.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1C0E1F7C2954CB6A00F3C3DB /* SwiftUIX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1C0E1F7B2954CB6A00F3C3DB /* XCRemoteSwiftPackageReference "SwiftUIX" */;
+			productName = SwiftUIX;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		1C0E1F5F2954ACC300F3C3DB /* Koan.xcdatamodeld */ = {
