@@ -34,12 +34,13 @@ struct CommuSearchBar: View {
             .frame(width: 46, height: 46)
             .background(Color.accentColor)
             .clipShape(RoundedRectangle(cornerRadius: 12))
-
+            
             
         }
         .background(Color.white)
         .clipShape(RoundedRectangle(cornerRadius: 12))
-        .shadow(color: Color("ShadowGray").opacity(0.09), x: 10, y: 10, blur: 60)    }
+        .shadowDefault()
+    }
 }
 
 struct CommuSearchBar_Previews: PreviewProvider {

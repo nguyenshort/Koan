@@ -25,6 +25,9 @@
 		1C0E1F8929552AD600F3C3DB /* CommuTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0E1F8829552AD600F3C3DB /* CommuTags.swift */; };
 		1C0E1F8C2955484600F3C3DB /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0E1F8B2955484600F3C3DB /* StringExtensions.swift */; };
 		1C0E1F8E295548BA00F3C3DB /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0E1F8D295548BA00F3C3DB /* ColorExtensions.swift */; };
+		1C0E1F9129554A2400F3C3DB /* ShadowModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0E1F9029554A2400F3C3DB /* ShadowModifiers.swift */; };
+		1C0E1F9329554C5500F3C3DB /* NumberExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0E1F9229554C5500F3C3DB /* NumberExtensions.swift */; };
+		1C0E1F9529554CDF00F3C3DB /* BorderModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0E1F9429554CDF00F3C3DB /* BorderModifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +51,9 @@
 		1C0E1F8829552AD600F3C3DB /* CommuTags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommuTags.swift; sourceTree = "<group>"; };
 		1C0E1F8B2955484600F3C3DB /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 		1C0E1F8D295548BA00F3C3DB /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		1C0E1F9029554A2400F3C3DB /* ShadowModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowModifiers.swift; sourceTree = "<group>"; };
+		1C0E1F9229554C5500F3C3DB /* NumberExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberExtensions.swift; sourceTree = "<group>"; };
+		1C0E1F9429554CDF00F3C3DB /* BorderModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderModifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 		1C0E1F5A2954ACC300F3C3DB /* Koan */ = {
 			isa = PBXGroup;
 			children = (
+				1C0E1F8F29554A1400F3C3DB /* Modifiers */,
 				1C0E1F8A2955482100F3C3DB /* Extensions */,
 				1C0E1F85295527AF00F3C3DB /* Info.plist */,
 				1C0E1F832955276B00F3C3DB /* Inter.ttf */,
@@ -148,8 +155,18 @@
 			children = (
 				1C0E1F8B2955484600F3C3DB /* StringExtensions.swift */,
 				1C0E1F8D295548BA00F3C3DB /* ColorExtensions.swift */,
+				1C0E1F9229554C5500F3C3DB /* NumberExtensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1C0E1F8F29554A1400F3C3DB /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				1C0E1F9029554A2400F3C3DB /* ShadowModifiers.swift */,
+				1C0E1F9429554CDF00F3C3DB /* BorderModifiers.swift */,
+			);
+			path = Modifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +249,11 @@
 				1C0E1F782954C5F900F3C3DB /* CommuTab.swift in Sources */,
 				1C0E1F5C2954ACC300F3C3DB /* KoanApp.swift in Sources */,
 				1C0E1F612954ACC300F3C3DB /* Koan.xcdatamodeld in Sources */,
+				1C0E1F9529554CDF00F3C3DB /* BorderModifiers.swift in Sources */,
 				1C0E1F722954AD2700F3C3DB /* Home.swift in Sources */,
 				1C0E1F872955289700F3C3DB /* CommuWelcome.swift in Sources */,
+				1C0E1F9129554A2400F3C3DB /* ShadowModifiers.swift in Sources */,
+				1C0E1F9329554C5500F3C3DB /* NumberExtensions.swift in Sources */,
 				1C0E1F632954ACC300F3C3DB /* ContentView.swift in Sources */,
 				1C0E1F8929552AD600F3C3DB /* CommuTags.swift in Sources */,
 				1C0E1F7F2955211B00F3C3DB /* CommuBanner.swift in Sources */,

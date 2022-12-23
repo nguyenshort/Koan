@@ -20,13 +20,14 @@ struct Home: View {
 //                    CommuTab()
 //
 //
-//                    CommuBanner()
-//                        .clipShape(RoundedRectangle(cornerRadius: 15))
-//                        .padding(.horizontal)
-//                        .padding(.top, 16)
                     
                     CommuWelcome()
                         .padding(.horizontal)
+                    
+                    CommuBanner()
+                        .clipShape(RoundedRectangle(cornerRadius: 15))
+                        .padding(.horizontal)
+                        .padding(.top, 30)
                     
                     CommuSearchBar()
                         .padding(.top, 30)
@@ -35,6 +36,19 @@ struct Home: View {
                     CommuTags()
                         .padding(.horizontal)
                         .padding(.top, 16)
+                    
+                    VStack(spacing: 20) {
+                        
+                        RoomItem()
+
+                        RoomItem()
+
+                        
+                        RoomItem()
+                        
+                    }
+                    .padding(.horizontal)
+                    .padding(.top, 30)
                 }
             }
             // .ignoresSafeArea()

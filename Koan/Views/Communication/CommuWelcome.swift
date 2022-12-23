@@ -15,6 +15,7 @@ struct CommuWelcome: View {
             RoundedRectangle(cornerRadius: 12)
                 .fill(Color("Gray"))
                 .frame(width: 50, height: 50)
+                .shadowDefault()
             
             VStack(alignment: .leading) {
                 
